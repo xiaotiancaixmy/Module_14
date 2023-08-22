@@ -11,9 +11,11 @@ We used an OHLCV dataset and generated trading signals based on short- and long-
 The initial results from the SVM classifier provided a certain accuracy, precision, recall, and f1-score.
 <plot>
   <tr>
-    <td colspan="2"> <img src="svc.png" alt="" style="width: 100%;"/> </td>
+    <td colspan="2"> <img src="svc.png" alt="" style="width: 50%;"/> </td>
   </tr>
  <plot>
+
+
  The cumulative returns plot showed the performance of the model over the testing data.
 
 
@@ -39,7 +41,7 @@ We experimented by modifying the training dataset's size. Adjusting the training
 Tweaking the SMA windows produced varied results. The optimal window sizes were found to be 
 <plot>
   <tr>
-    <td colspan="2"> <img src="sva.png" alt="" style="width: 100%;"/> </td>
+    <td colspan="2"> <img src="sva.png" alt="" style="width: 50%;"/> </td>
   </tr>
  <plot>
 
@@ -60,7 +62,7 @@ We opted for this experiment.
 #### 4.1 Model Performance
 The classifier yielded the following metrics: <plot>
   <tr>
-    <td colspan="2"> <img src="sma.png" alt="" style="width: 100%;"/> </td>
+    <td colspan="2"> <img src="sma.png" alt="" style="width: 50%;"/> </td>
   </tr>
  <plot>
 
